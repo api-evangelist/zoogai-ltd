@@ -1,7 +1,26 @@
 aid: zoogai-ltd
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoogai-ltd.png
 name: Zoog.A.I. Ltd.
-description: Zoog.A.I. Ltd. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zoog.A.I. Ltd. (Zoog) is a consumer application that lets families create
+  personalized video books and songs for children. Parents and kids can read
+  classic children's books, sing popular nursery rhymes, and turn them into
+  personalized videos featuring their own family, then share those magical
+  creations. Zoog is delivered as an iOS app (with an Android waitlist) and a
+  companion website, and is backed by 500 Global. It has no public developer
+  API surface, SDKs, or API documentation at this time; this profile captures
+  its identity and web presence within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/zoogai-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer
+- Kids
+- Family
+- Video
+- Storytelling
+- Entertainment
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://getzoog.com
+- type: Pricing
+  url: https://getzoog.com/pricing/
+- type: Blog
+  url: https://getzoog.com/blog/
+- type: Support
+  url: https://getzoog.com/faq/
+- type: TermsOfService
+  url: https://getzoog.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://getzoog.com/privacy-policy/
+- type: DomainSecurity
+  url: security/zoogai-ltd-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
