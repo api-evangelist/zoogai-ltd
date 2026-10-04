@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoogai-ltd.png
-name: Zoog.A.I. Ltd.
+name: Zoog
 description: >-
   Zoog.A.I. Ltd. (Zoog) is a consumer application that lets families create
   personalized video books and songs for children. Parents and kids can read
@@ -77,3 +77,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Zoog.A.I. Ltd.
